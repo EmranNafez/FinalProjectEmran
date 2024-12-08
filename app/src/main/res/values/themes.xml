@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.FinalProjectEmran" parent="Base.Theme.FinalProjectEmran" />
+
+    <style name="Theme.App.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
 </resources>

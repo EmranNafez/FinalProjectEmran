@@ -27,4 +27,8 @@ public class UserRepository {
     public User getUserByUsername(String username) {
         return userDao.getUserByUsername(username);
     }
+
+    public User getUserByEmailAndPassword(String email, String password) {
+        return userDao.getUserByEmailAndPassword(email, password);
+    }
 }

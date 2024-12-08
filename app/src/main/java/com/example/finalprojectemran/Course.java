@@ -11,7 +11,12 @@ public class Course {
     private String courseDescription;
     private String courseDuration;
 
-    // Getters and Setters
+    public Course(String courseName, String courseDescription, String courseDuration) {
+        this.courseName = courseName;
+        this.courseDescription = courseDescription;
+        this.courseDuration = courseDuration;
+    }
+
     public int getId() {
         return id;
     }
